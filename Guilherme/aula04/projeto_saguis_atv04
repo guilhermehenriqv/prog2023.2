@@ -1,0 +1,38 @@
+#Método de discriminação de estímulos auditivos para primatas atráves do condicionamento operante
+
+#Habituação
+habituado = input('Sim para Habituado e Não para Não habituado?')
+if habituado == 'True':
+  print("parabéns.")
+else:
+print("continuar habituação.")
+
+pritn('animal habituado.')
+#Aproximação
+distancia = 30
+aproximou=False
+if aproximou == True:
+  print("liberando 0.5ml")
+else:
+  print("continuar experimento")
+#Emisão de som 1
+som_1_emitido_e_toque_na_barra_esquerda = True
+
+if som_1_emitido_e_toque_na_barra_esquerda == True:
+  print("liberar 0,5ml de ração")
+else:
+  print("Não liberar nada")
+
+  #Emissão de som 2
+  som_2_emitido_e_toque_na_barra_direita = True
+
+if som_2_emitido_e_toque_na_barra_direita == True:
+  print("liberar 0,5ml de ração")
+else:
+  print("Não liberar nada")
+
+numero_experimento=int(input("Quantas vezes o experimento foi realizado: "))
+tempo=int(input("Em quanto tempo? Digite em minutos: "))
+
+if numero_experimento > 49 and tempo > 29:
+    print("Experimento passou para próxima fase")
