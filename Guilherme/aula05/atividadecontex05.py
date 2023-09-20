@@ -1,12 +1,9 @@
 #Atividade Contextualizada 5
 
-#Fazer download manual - arquivo csv
-    #Arquivo HIST_PAINEL_COVIDBR_2021_Parte1
-
 #Criar lista e tupla com arquivos
 #Região, Estado, regiaoSaude, semanaEpi, populacao, casosAcumulado, casosNovos, obitosAcumulado, obitosNovos
 
-listaDados = ['Brasil', 'Brasil', 'GERAL', 53, 210147125, 7700578, 24605, 195411, 462, 
+listaEstados = ['Brasil', 'Brasil', 'GERAL', 53, 210147125, 7700578, 24605, 195411, 462, 
 'Norte', 'RO', 'ZONA DA MATA', 53, 22945, 1291, 3, 16, 0,
 'Norte', 'RO', 'CONE SUL', 4, 5312, 364, 0, 9, 0,
 'Norte', 'AC', 'ALTO ACRE', 22, 7417, 1644,	4, 24, 0,
@@ -45,7 +42,7 @@ listaDados = ['Brasil', 'Brasil', 'GERAL', 53, 210147125, 7700578, 24605, 195411
 'Centro-Oeste',	'MT', 'TELES PIRES', 7, 13705, 1186, 0, 15,	0,
 'Centro-Oeste', 'MS', 'DOURADOS', 14, 9110, 111, 0, 3, 0,]
 
-tuplaDados = ('Brasil', 'Brasil', 'GERAL', 53, 210147125, 7700578, 24605, 195411, 462, 
+tuplaEstados = ('Brasil', 'Brasil', 'GERAL', 53, 210147125, 7700578, 24605, 195411, 462, 
 'Norte', 'RO', 'ZONA DA MATA', 53, 22945, 1291, 3, 16, 0,
 'Norte', 'RO', 'CONE SUL', 4, 5312, 364, 0, 9, 0,
 'Norte', 'AC', 'ALTO ACRE', 22, 7417, 1644,	4, 24, 0,
